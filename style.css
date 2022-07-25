@@ -70,7 +70,15 @@ main {
 	margin-left: 300px;
 }
 
-.title-section h2::after {
+.title h2 {
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	position: relative;
+	color: #173b6c;
+}
+
+.title h2::after {
 	content: '';
 	position: absolute;
 	display: block;
@@ -81,9 +89,30 @@ main {
 	left: 0;
 }
 
-/* about */
 
+/* skill */
 
+#skill, #contact {
+	background: #f5f8fd;
+}
+
+.progress {
+	display: -ms-flexbox;
+	display: flex;
+	height: 1rem;
+	overflow: hidden;
+	font-size: .75rem;
+	background-color: #e9ecef;
+	border-radius: 0.25rem;
+}
+
+.bg-info {
+	background-color: #17a2b8!important;
+}
+
+.progress-bar {
+	height: 10px;
+}
 
 /* screen settings */
 @media only screen and (min-width: 1400px) {
