@@ -126,6 +126,21 @@ main {
 	background-color: #dde0e4;
 }
 
+/* contact */
+
+#contact i {
+	font-size: 20px;
+	color: #149ddd;
+	float: left;
+	width: 44px;
+	height: 44px;
+	background: #dff3fc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	transition: all 0.3s ease-in-out;
+}
 
 /* screen settings */
 @media only screen and (min-width: 1400px) {
