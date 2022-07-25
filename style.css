@@ -114,6 +114,19 @@ main {
 	height: 10px;
 }
 
+/* portfolio */
+
+.content {
+	padding: 0;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.content .text{
+	background-color: #dde0e4;
+}
+
+
 /* screen settings */
 @media only screen and (min-width: 1400px) {
   header ul {
